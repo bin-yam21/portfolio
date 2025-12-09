@@ -20,8 +20,8 @@ export const TextGenerateEffect = ({
         opacity: 1,
       },
       {
-        duration: 2,
-        delay: stagger(0.2),
+        duration: 2.5,
+        delay: stagger(0.15),
       }
     );
   }, [scope.current]);
@@ -33,7 +33,7 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              // change here if idx is greater than 3, change the text color to #CBACF9
+              // change here if idx is greater than 3, change the text color to Rust orange
               className={` ${idx > 3 ? "text-purple" : "dark:text-white text-black"
                 } opacity-0`}
             >

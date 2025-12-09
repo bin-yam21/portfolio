@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -49,7 +48,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Working on building Rust projects",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,66 +71,84 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Snapkors - Notes and Quiz Sharing Platform",
+    des: "A comprehensive platform for students to share notes and take quizzes. Built with modern web technologies for seamless learning experiences.",
+    img: "/snapkors-home.png",
+    tools: [
+      "Next.js",
+      "React Query",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand",
+      "Axios",
+    ],
+    iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg"],
+    link: "https://github.com/bin-yam21/snapkors",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Secure HR - ERP System for Security Service Providers",
+    des: "Enterprise Resource Planning system designed specifically for security service providers with HR management, scheduling, and reporting features.",
+    img: "/securehr.png",
+    tools: [
+      "React",
+      "Tailwind CSS",
+      "Zustand",
+      "PostgreSQL",
+      "Axios",
+      "React Query",
+    ],
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://github.com/bin-yam21/secure-hr",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Chat App - Rust Axum Backend",
+    des: "High-performance real-time chat application built with Rust and Axum framework, featuring WebSocket support and scalable architecture.",
+    img: "/rust-chat-app.jpg",
+    tools: ["Rust", "Axum", "Tokio", "Tower HTTP"],
+    iconLists: [],
+    link: "https://github.com/bin-yam21/chat-app",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Book Store - MERN Stack Application",
+    des: "Full-stack e-commerce book store application built with MongoDB, Express, React, and Node.js. Features user authentication, shopping cart, and payment integration.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    tools: ["React", "Tailwind CSS", "TypeScript", "Next.js"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    link: "https://github.com/bin-yam21/book-store",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Biniyam was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Biniyam's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Biniyam is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Biniyam was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Biniyam's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Biniyam is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Biniyam was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Biniyam's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Biniyam is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Biniyam was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Biniyam's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Biniyam is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Biniyam was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Biniyam's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Biniyam is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -140,64 +157,68 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Vercel",
+    img: "/next.svg",
+    nameImg: "",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Next.js",
+    img: "/next.svg",
+    nameImg: "",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Node.js",
+    img: "",
+    nameImg: "",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Rust",
+    img: "",
+    nameImg: "",
   },
   {
     id: 5,
-    name: "docker.",
+    name: "Rust Axum",
+    img: "",
+    nameImg: "",
+  },
+  {
+    id: 6,
+    name: "Docker",
     img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    nameImg: "",
+  },
+  {
+    id: 7,
+    name: "Express",
+    img: "",
+    nameImg: "",
+  },
+  {
+    id: 8,
+    name: "PostgreSQL",
+    img: "",
+    nameImg: "",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Internship at INSA",
+    desc: "Gained hands-on experience in software development, working on various projects and learning industry best practices.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Junior Fullstack Developer at TWOZ Software Company",
+    desc: "Developed and maintained full-stack applications using modern technologies. Collaborated with cross-functional teams to deliver high-quality software solutions.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg",
   },
 ];
 
@@ -205,13 +226,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/bin-yam21",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "#",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "#", // LinkedIn link to be added later
   },
 ];

@@ -20,7 +20,7 @@ const Approach = () => {
           navigation, and content requirements."
         >
           <CanvasRevealEffect
-            animationSpeed={5.1}
+            animationSpeed={3.5}
             // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
@@ -33,7 +33,7 @@ const Approach = () => {
           every step of the way."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
+            animationSpeed={2.5}
             // change bg-black to bg-pink-900
             containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
             colors={[
@@ -55,7 +55,7 @@ const Approach = () => {
           from the ground up."
         >
           <CanvasRevealEffect
-            animationSpeed={3}
+            animationSpeed={2.5}
             containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
           />
@@ -153,8 +153,8 @@ const AceternityIcon = ({ order }: { order: string }) => {
       {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
-          className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
-         bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+          className="absolute inset-[-1000%] animate-[spin_3s_linear_infinite]
+         bg-[conic-gradient(from_90deg_at_50%_50%,#FF7A1A_0%,#CE4127_50%,#FF7A1A_100%)]"
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
